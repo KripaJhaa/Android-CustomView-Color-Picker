@@ -24,6 +24,6 @@
         app:circle_radius="20dp"
         app:rectangle_breadth="1dp"
         app:rectangle_color="#9ee2dee3" />
-    
+
 
 </LinearLayout>
