@@ -1,14 +1,15 @@
-# Android-CustomView-Color-Picker
+# Android-CustomView-Color-Picker :checkered_flag:
+  
 
-#### *Color Picker work With any image and pick Color of the Image Accordingly*
+#### *Color Picker work With any image and pick Color of the Image Accordingly* :heavy_check_mark:
 
-> Attributes Like
-* Background Image
+> Attributes Like :star2:
+* Background Image 
 
 `of which of You need to Pick the color.`
 * Cusror Image
 * Cursor Width
-* GuideLine If Required 
+* GuideLine If Required :heavy_plus_sign: , :heavy_minus_sign:
 `Guideline is a Horizontal or Vertical line corresponding to the cusor hover.`
 
 * Cursor Color
