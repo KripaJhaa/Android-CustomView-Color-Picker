@@ -42,4 +42,8 @@ android:foreground="?attr/selectableItemBackgroundBorderless
        app:rectangle_color="#9ee2dee3" />
 ```
 
+> **Working Demo of the Above Sample**
+
+![Alt Text](https://im4.ezgif.com/tmp/ezgif-4-aa45b4e5bf.gif)
+
 
