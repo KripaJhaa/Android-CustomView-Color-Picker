@@ -107,9 +107,9 @@ public class CustomView extends View {
             paintObj.setColor(mColorObject);
             paintObj.setStyle(Paint.Style.FILL);
             //guideline with respect to cursor
-            if (setVGuideLine == true)
+            if (setVGuideLine)
                 canvas.drawRect(mRectVSquareLeft, mRectVSquareTop, mRectVSquareRight, mRectVSquareBottom, paintObj);
-            if (setHGuideLine == true)
+            if (setHGuideLine)
                 canvas.drawRect(mRectHSquareLeft, mRectHSquareTop, mRectHSquareRight, mRectHSquareBottom, paintObj);
 
             paintObj.setColor(Color.WHITE);
@@ -120,7 +120,7 @@ public class CustomView extends View {
             if (touchX - 150 < getX())
                 canvas.drawText(parameter, touchX+150, touchY, paintObj);
             else
-                canvas.drawText(parameter, touchX-150, touchY, paintObj);
+                canvas.drawText(parameter, touchX-200, touchY, paintObj);
 
 //            canvas.drawBitmap(bmpCursor, mCursorX, mCursorY, null);
 
@@ -148,9 +148,9 @@ public class CustomView extends View {
 
 
             //setting up rectangle coordinates
-            if (setVGuideLine == true)
+            if (setVGuideLine)
                 setVerticalLinePosition(touchX, touchY);
-            if (setHGuideLine == true)
+            if (setHGuideLine)
                 setHorizantalLinePosition(touchX, touchY);
 
             //setting up circle center
