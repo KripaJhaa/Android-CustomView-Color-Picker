@@ -46,5 +46,6 @@ android:foreground="?attr/selectableItemBackgroundBorderless
 
 <img src="./demo.gif">
 
+`The Above Code is so Designed As one can just Implement the Interface and use the Properties as per the MouseEvent Listener`
 
 
