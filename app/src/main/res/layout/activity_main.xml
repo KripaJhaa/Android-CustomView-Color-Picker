@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bacgroundId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.example.kripajha.customviewdemo.Views.CustomView
+        android:id="@+id/customView"
+        android:layout_width="240dp"
+        android:layout_height="400dp"
+        android:layout_margin="30dp"
+        app:SetHorizantalLine="true"
+        app:SetVerticalLine="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        app:backGround_image="@drawable/colorpickerrectangular"
+        app:circle_image="@drawable/cursor"
+        app:circle_radius="20dp"
+        app:rectangle_breadth="1dp"
+        app:rectangle_color="#9ee2dee3" />
+
+
+
+
+
+
+</LinearLayout>
